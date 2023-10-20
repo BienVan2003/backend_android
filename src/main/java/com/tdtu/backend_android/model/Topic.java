@@ -9,6 +9,6 @@ import lombok.Data;
 public class Topic {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long topic_id;
+    private Long id;
     private String name;
 }

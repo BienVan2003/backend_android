@@ -9,6 +9,6 @@ import lombok.Data;
 public class Folder {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long folder_id;
+    private Long id;
     private String name;
 }
