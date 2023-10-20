@@ -35,4 +35,7 @@ public class AccountService implements CRUDService<Account>{
     public Account findByEmail(String email){
         return accountRepository.findByEmail(email);
     }
+    public Account findByUsername(String username){
+        return accountRepository.findByUsername(username);
+    }
 }
